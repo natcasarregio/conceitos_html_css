@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceitos de tags</title>
+    <style>
+        h1{
+            color: rgb(124, 124, 255);
+        }
+        body{
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo da tag "a"</h1>
+    <a href="https://www.w3schools.com/tags/tag_a.asp">Ao clicar nesse texto você será direcionado a outra pagina, pois
+        foi usado a tag "<.a>".</a>
+    <h1>Exemplo da tag "bdi"</h1>
+    <p>Os nomes de usuario podem ser escritos em outras linguas que são lidas da direita para esquerda. <br> A tag bdi
+        isola esse termo para ele ser direcionado para a maneira que você le. </p>
+    <ul>
+        <li>Usuário: <bdi>hrefs</bdi>: 60 pontos</li>
+        <li>Usuário: <bdi>jdoe</bdi>: 80 pontos</li>
+        <li>Usuário: <bdi>إيان</bdi>: 90 pontos</li>
+    </ul>
+    <h1>Exemplo da tag "colgroup"</h1>
+    <table>
+        <colgroup>
+            <col style="background-color: gray;">
+            <col span="3" style="background-color:red">
+            <col style="background-color:rgb(17, 255, 0)">
+        </colgroup>
+        <tr>
+            <th>Aluno:</th>
+            <th>Jorge</th>
+            <th>Rogerio</th>
+            <th>Rodrigo</th>
+            <th>Lucia</th>
+        </tr>
+        <tr>
+            <td>Nota:</td>
+            <td>3</td>
+            <td>4</td>
+            <td>1</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <h1>Exemplo da tag "fieldset"</h1>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Dados:</legend>
+            <label for="fname">Nome:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Sobrenome:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Data de nascimento:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <h1>Exemplo da tag "meter"</h1>
+    <label for="disk_c">armazenamento:</label>
+<meter id="disk_c" value="15" min="0" max="20">15 out of 20</meter><br>
+<h1>Exemplo tag "q"</h1>
+<p>Já dizia a kibon<q>Você não é um menino, você é uma banana.</q>
+Compre frutare kibon de banana.</p>
+</body>
+
+
+</html>
